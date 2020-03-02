@@ -1,3 +1,3 @@
-# PONG
+# Pong
 
-The classic PONG game. Written entirely in Python.
+The classic Pong game. Written entirely in Python.
