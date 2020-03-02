@@ -1,4 +1,6 @@
 from random import randint
+from colorama import init, Fore, Back, Style
+init(autoreset=True)
 
 #----------Print board-----------------------
 def displayBoard(board):
@@ -82,11 +84,11 @@ def main():
         
     if finished:
         if movesCounter % 2 != 0:
-            print('Player 1 won')
+            print(Fore.GREEN + 'Player 1 won')
         else:
-            print('PC won')
+            print(Fore.RED + 'PC won')
     else:
-        print('DRAW')
+        print(Fore.BLUE + 'DRAW')
 
 if __name__ == '__main__':
     main()
